@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <windows.h>
-#include <ctime>
 
 void generate_table(int *t, int size)
 {

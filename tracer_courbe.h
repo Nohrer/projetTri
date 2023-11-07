@@ -10,7 +10,7 @@ void tracer_courbe(){
   if(f_plot != NULL){
     fprintf(f_plot,"set grid;\n");
     fprintf(f_plot,"set xrange[0:10000];\n");
-    fprintf(f_plot,"set yrange[0:1];\n");
+    fprintf(f_plot,"set yrange[0:3];\n");
     fprintf(f_plot,"set key box;\n");
     fprintf(f_plot, "set ylabel \"Temps de Tri (s * 10)\";\n");
     fprintf(f_plot, "set xlabel \"taille des donnees\";\n");
